@@ -1,0 +1,21 @@
+expense1 = str(input("Enter the expense name: "))
+amount1 = int(input("Enter the amount: "))
+
+expense2 = str(input("Enter the expense name:  "))
+amount2 = int(input("Enter the amount: "))
+
+expense3 = str(input("Enter the expense name: "))
+amount3 = int(input("Enter the amount: "))
+
+total = amount1 + amount2 + amount3
+
+print("Expense 1: ", expense1, "Amount: ", amount1)
+print("Expense 2: ", expense2, "Amount: ", amount2)
+print("Expense 3: ", expense3, "Amount: ", amount3)
+
+print("Total expenses: ", total)
+
+if total > 1000:
+    print("You have exceeded your budget.")
+else:
+    print("You are within your budget.")
