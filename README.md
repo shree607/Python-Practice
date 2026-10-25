@@ -1,24 +1,37 @@
-# Student Result Calculator
+# Python Practice 🐍
 
-## About
-A beginner-friendly Python project that calculates a student's total marks, percentage, and grade.
+Welcome to my Python practice repository!
 
-## Features
-- Accepts student name and marks in five subjects
-- Calculates total marks
-- Calculates percentage
-- Assigns a grade based on percentage
+I'm learning Python programming and uploading the programs I create while practising.
 
-## Technologies Used
+## 📚 Topics Covered
+
+- Python Basics
+- Variables and Data Types
+- User Input and Output
+- Conditional Statements (`if-elif-else`)
+- Loops
+- Mathematical Operations
+- Beginner Projects
+
+## 📂 Projects
+
+- Student Result Calculator
+- Calculator
+- Even or Odd Checker
+- Sum of Digits
+- Multiplication Table
+
+## 🛠️ Tools Used
+
 - Python
+- Visual Studio Code
+- GitHub
 
-## How to Run
-1. Install Python.
-2. Download or clone this repository.
-3. Run `student_result.py` in VS Code or a terminal.
+## 🎯 Goal
 
-## Learning Outcomes
-- Variables and data types
-- User input
-- Arithmetic operators
-- Conditional statements (`if-elif-else`)
+To improve my Python programming skills by practising regularly and building projects.
+
+---
+
+*This repository will grow as I continue learning Python.*
