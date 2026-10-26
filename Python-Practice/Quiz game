@@ -1,0 +1,28 @@
+score = 0
+print("Q1. Which language are we learning?")
+print("1. Java")
+print("2. Python")
+print("3. C++")
+
+answer = int(input("Enter your answer (1-3): "))
+
+if answer == 2:
+    print("Correct answer!")
+    score = score + 1
+else:
+    print("Wrong answer!")
+
+print("Q2. What is 5 + 3?")
+print("1. 6")
+print("2. 8")
+print("3. 10")
+
+answer = int(input("Enter your answer (1-3): "))
+
+if answer == 2:
+    print("Correct answer!")
+    score = score + 1
+else:
+    print("Wrong answer!")
+
+print("Your score:", score, "/2")
