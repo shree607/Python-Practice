@@ -1,0 +1,30 @@
+total_students = int(input("Enter the number of students: "))
+
+total_marks = 0
+
+for i in range(total_students):
+    print("\nStudent", i + 1)
+
+    name = input("Enter student name: ")
+    marks = float(input("Enter marks out of 100: "))
+
+    if marks >= 90:
+        grade = "A"
+    elif marks >= 75:
+        grade = "B"
+    elif marks >= 60:
+        grade = "C"
+    else: 
+        grade = "D"
+
+    total_marks = total_marks + marks
+
+    print("Name:", name)
+    print("Marks:", marks)
+    print("Grade:", grade)
+
+if total_students > 0:
+    average = total_marks / total_students
+    print("\nClass Average:", round(average, 2))
+else:
+    print("No students entered.")
